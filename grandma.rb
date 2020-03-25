@@ -14,6 +14,8 @@
 
 def speak_to_grandma(arg)
   response = ""
+  if arg = "I LOVE YOU GRANDMA!"
+    response = "I LOVE YOU TOO PUMPKIN!"
   if arg != arg.upcase
     response = "HUH?! SPEAK UP, SONNY!"
   elsif arg == arg.upcase
