@@ -23,5 +23,4 @@ def speak_to_grandma(arg)
   end  
   
   response
-  
 end
