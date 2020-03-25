@@ -14,13 +14,14 @@
 
 def speak_to_grandma(arg)
   response = ""
-  if arg = "I LOVE YOU GRANDMA!"
-    response = "I LOVE YOU TOO PUMPKIN!"
-  elsif arg != arg.upcase
-    response = "HUH?! SPEAK UP, SONNY!"
-  elsif arg == arg.upcase
-    response = "NO, NOT SINCE 1938!"
-  end  
+  unless arg == "I LOVE YOU GRANDMA"
+    if arg != arg.upcase
+      response = "HUH?! SPEAK UP, SONNY!"
+    elsif arg == arg.upcase
+      response = "NO, NOT SINCE 1938!"
+    end
+  elsif arg == "I LOVE YOU GRANDMA!"
+    response = 
   
   response
 end
