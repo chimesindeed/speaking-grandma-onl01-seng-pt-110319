@@ -20,6 +20,8 @@ def speak_to_grandma(arg)
     response = "HUH?! SPEAK UP, SONNY!"
   elsif arg == arg.upcase
     response = "NO, NOT SINCE 1938!"
-    
+  end  
+  
+  response
   
 end
