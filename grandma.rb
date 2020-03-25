@@ -20,7 +20,7 @@ def speak_to_grandma(arg)
     elsif arg == arg.upcase
       response = "NO, NOT SINCE 1938!"
     end
-  elsif arg == "I LOVE YOU GRANDMA!"
+  else arg == "I LOVE YOU GRANDMA!"
     response = "I LOVE YOU TOO PUMPKIN!"
   end
   
