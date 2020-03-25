@@ -21,7 +21,8 @@ def speak_to_grandma(arg)
       response = "NO, NOT SINCE 1938!"
     end
   elsif arg == "I LOVE YOU GRANDMA!"
-    response = 
+    response = "I LOVE YOU TOO PUMPKIN!"
+  end
   
   response
 end
